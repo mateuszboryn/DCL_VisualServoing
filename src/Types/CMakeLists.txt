@@ -4,9 +4,9 @@ SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # # Get soource files of library 
 # FILE(GLOB lib_src *.cpp)
-# ADD_LIBRARY(DCL_VisualServoingTypes SHARED ${lib_src})
+# ADD_LIBRARY(VisualServoingTypes SHARED ${lib_src})
 # # Link with other libraries
-# TARGET_LINK_LIBRARIES(DCL_VisualServoingTypes ${OpenCV_LIBRARIES})
+# TARGET_LINK_LIBRARIES(VisualServoingTypes ${OpenCV_LIBRARIES})
 #
 # # Install library
 # INSTALL(

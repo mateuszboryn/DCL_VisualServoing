@@ -31,4 +31,4 @@ ADD_SUBDIRECTORY(Components)
 ADD_SUBDIRECTORY(Types)
 
 # Prepare config file to use from another DCLs
-CONFIGURE_FILE(DCL_VisualServoingConfig.cmake.in ${CMAKE_INSTALL_PREFIX}/DCL_VisualServoingConfig.cmake @ONLY)
+CONFIGURE_FILE(VisualServoingConfig.cmake.in ${CMAKE_INSTALL_PREFIX}/VisualServoingConfig.cmake @ONLY)

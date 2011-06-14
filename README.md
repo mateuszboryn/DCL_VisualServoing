@@ -1,21 +1,17 @@
-DCL_VisualServoing - DisCODe Component Library
-==============================================
+VisualServoing - DisCODe Component Library
+==========================================
 
 Description
 -----------
 
-Visual servoing components for cooperation with MRROC++ 
+Fill this section with description of this library.
 
 Dependencies
 ------------
 
-BOOST - required
-OpenCV - required
-CvBasic - required
-CameraUniCap - required
+Put here any dependencies of this library (other DCLs, third party libraries etc)
 
 Maintainer
 ----------
 
-inż. Mateusz Boryń
-mateusz.boryn@gmail.com
+Provide any information about yourself
