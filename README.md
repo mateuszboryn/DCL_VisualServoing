@@ -4,14 +4,15 @@ VisualServoing - DisCODe Component Library
 Description
 -----------
 
-Fill this section with description of this library.
+Visual servoing library for cooperation with MRROC++.
 
 Dependencies
 ------------
 
-Put here any dependencies of this library (other DCLs, third party libraries etc)
+CvBasic
+CameraUniCap
 
 Maintainer
 ----------
 
-Provide any information about yourself
+https://github.com/mateuszboryn
