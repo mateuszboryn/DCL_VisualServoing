@@ -19,11 +19,13 @@ SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 # If DCL provides any additional headers to be used from outside of it, add them
 
 # # Get list of header files
-# FILE(GLOB headers *.hpp)
+FILE(GLOB headers *.hpp)
 #
 # # Install them to include subdirectory
-# install(
-#     FILES ${headers}
-#     DESTINATION include/Types
-#     COMPONENT sdk
-# )
+install(
+    FILES ${headers}
+    DESTINATION include/Types
+    COMPONENT sdk
+)
+
+add_subdirectory(Mrrocpp_Proxy)
