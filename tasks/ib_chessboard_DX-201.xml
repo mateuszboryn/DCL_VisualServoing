@@ -100,7 +100,7 @@
 		<Event source="FindChessboard.chessboardFound" destination="VisualServoIB.onObjectLocated"/>
 		<Event source="FindChessboard.chessboardNotFound" destination="VisualServoIB.onObjectNotFound"/>
 		
-		<Event source="VisualServoIB.readingReady" destination="Mrrocpp.onNewReading"/>
+		<!-- <Event source="VisualServoIB.readingReady" destination="Mrrocpp.onNewReading"/>  -->
 		
 		<Event source="CvUndistort.newUndistortedImage" destination="Window.onNewImage"/>
 	</Events>
@@ -142,7 +142,7 @@
 		
 		<Mrrocpp>
 			<reading type="in" group="reading"/>
-			<in_timestamp type="in" group="Timestamp"/>
+			<!-- <in_timestamp type="in" group="Timestamp"/>  -->
 		</Mrrocpp>
 		
 		<Window>
