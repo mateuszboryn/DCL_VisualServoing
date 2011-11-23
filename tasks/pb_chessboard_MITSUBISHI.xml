@@ -73,7 +73,7 @@
 	</Components>
 
 	<Executors>
-		<ImageSourceThread type="passive">
+		<ImageSourceThread type="continuous">
 			<main_component>ImageSource</main_component>
 		</ImageSourceThread>
 		

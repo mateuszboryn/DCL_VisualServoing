@@ -71,7 +71,7 @@
 	</Components>
 
 	<Executors>
-		<ImageSourceThread type="passive">
+		<ImageSourceThread type="continuous">
 			<main_component>ImageSource</main_component>
 		</ImageSourceThread>
 		
@@ -99,8 +99,6 @@
 		
 		<Event source="FindChessboard.chessboardFound" destination="VisualServoIB.onObjectLocated"/>
 		<Event source="FindChessboard.chessboardNotFound" destination="VisualServoIB.onObjectNotFound"/>
-		
-		<!-- <Event source="VisualServoIB.readingReady" destination="Mrrocpp.onNewReading"/>  -->
 		
 		<Event source="CvUndistort.newUndistortedImage" destination="Window.onNewImage"/>
 	</Events>
